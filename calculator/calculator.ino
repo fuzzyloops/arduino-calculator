@@ -40,6 +40,7 @@ void setup() {
 }
 
 void loop() {
+
   char customKey = customKeypad.getKey();
 
   if(customKey == '^')
